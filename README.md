@@ -49,7 +49,7 @@
 
         #vung2 p {
             font-size: 20px;
-            color: #555;
+            color: #000000;
         }
 
         #vung2 a {
@@ -90,7 +90,26 @@
 </head>
 
 <div id="vung1">
-<body bgcolor="#f5f5f7">
+<body>
+    
+     <div id="QuocGia" >
+
+        <p>
+            Chọn quốc gia hoặc khu vực khác để xem nội dung dành riêng cho vị trí của bạn và mua sắm trực tuyến.
+        </p>
+
+        <select>
+            <option>Việt Nam</option>
+            <option>United States</option>
+            <option>Japan</option>
+        </select>
+
+        <button>Tiếp Tục</button>
+
+        <a title="Đóng">&times;</a>
+
+    </div>
+  
     <center>
         <p>
             <a href="#">Store</a> | 
